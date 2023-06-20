@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>BOOKMARK</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section id="book-mark">
+            <div class="container">
+                <div class="bookmark-header border-bottom border-1 border-dark py-5">
+                    <h3 class="fw-bold">Bookmarker</h3>
+                </div>
+                <div class=" py-3 border-bottom border-1 border-dark">
+                    <div class="bookmark-content text-center py-5 w-95 mx-auto">
+                        <div class="content-header py-4">
+                            <h2 class="fw-bold">Bookmark your favorite sites</h2>
+                        </div>
+                        <div class="content-form ">
+                            <label for="siteNameInput" class="pb-3 w-100 fw-bold">Site Name</label>
+                            <input type="text" placeholder="Bookmark Name" id="siteNameInput" class="form-control w-75 mx-auto">
+                            <p id="nameError" class="w-75 mx-auto fw-bold py-1 my-2 d-none"></p>
+                            <label for="siteUrlInput" class="py-3 w-100 fw-bold">Site URL</label>
+                            <input  type="text" placeholder="website URL" id="siteUrlInput" class="form-control w-75 mx-auto">
+                            <p id="urlError" class="w-75 mx-auto fw-bold py-1 my-2 d-none"></p>
+                        </div>
+                        <div class="submit-btn pt-3">
+                            <button  id="addBtn" class="btn btn-outline-dark d-inline-block">Submit</button>
+                        </div>
+                    </div>
+                        </div>
+                    <div class="w-95 mx-auto py-3" id="bookMark-List">
+                    </div>
+                
+                <div class="bookmark-footer py-5 w-95">
+                    <p class="fw-bold">© 2019 Bookmarker Inc.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

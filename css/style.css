@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.w-95{
+    width: 95%;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+#book-mark .bookmark-header h3{
+    font-size: 30px;
+}
+#book-mark .bookmark-content{
+    background-color: #e3e1e1;
+}
+#book-mark h2{
+    font-size: 25px;
+}
+.form-control {
+    padding: 0px 2px;
+    border: 2px solid #ced4da;
+}
+.form-control:focus {
+    border-color:black;
+    box-shadow:none;
+}
+.bookmark-footer p{
+    font-size: 15px;
+}
+.item-btn #visitBtn{
+    background-color: #1167C4;
+}
+.item-btn #deleteBtn{
+    background-color: #910004;
+}
+.item-btn #visitBtn:hover{
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+    box-shadow: 2px 5px 3px 0px #888;
+} 
+.item-btn #updateBtn:hover{
+    background-color: #FFC107;
+    border: 1px solid #FFC107;
+    box-shadow: 2px 5px 3px 0px #888;
+}
+.item-btn #deleteBtn:hover{
+    background-color: #510d0e;
+    border: 1px solid #510d0e;
+    box-shadow: 2px 5px 3px 0px #888;
+}
+#nameError ,#urlError,#errorMassage{
+    background-color: rgb(255, 178, 178);
+    color: rgb(109, 0, 0);
+    border: 1px solid rgb(109, 0, 0);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
